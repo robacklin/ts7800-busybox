@@ -1,0 +1,12 @@
+rm fs/linuxrc
+
+rm -fr /nfsroot/rootfs3/bin
+rm -fr /nfsroot/rootfs3/sbin
+rm -fr /nfsroot/rootfs3/usr/bin
+rm -fr /nfsroot/rootfs3/usr/sbin
+
+cp -R fs/bin /nfsroot/rootfs3
+cp -R fs/sbin /nfsroot/rootfs3
+cp -R fs/usr/bin /nfsroot/rootfs3/usr
+cp -R fs/usr/sbin /nfsroot/rootfs3/usr
+
